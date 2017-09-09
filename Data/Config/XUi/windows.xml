@@ -23,7 +23,7 @@
 	
 	<window name="WOTWVERSION">
 		<texture name="War of the Walkers" depth="0" size="100,50" texture="@file:Mods\WaroftheWalkersMod\Textures\WotWMODLOGOImage.png" material="Materials/Transparent Colored" pos="-500,-6" />
-		<label name="ServerInfo" depth="0" size="100,50" text="V5.0.5(B30) R9/3/2017" font_size="18" effect="outline" color="[red]" justify="center" pos="-400,-15" overflow="resizeheight" />  <!-- WOTW VERSION # -->
+		<label name="ServerInfo" depth="0" size="100,50" text="V5.0.6(B31) R9/6/2017" font_size="18" effect="outline" color="[red]" justify="center" pos="-400,-15" overflow="resizeheight" />  <!-- WOTW VERSION # -->
 	</window>
 
 	<window name="TRUESURVIVAL">
@@ -605,7 +605,7 @@
 	
 	<window name="WOTWingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="WOTW" depth="0" size="999,777" texture="@file:Mods\WaroftheWalkersMod\Textures\WotWMenu2.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="WOTWVersion" pos="450, -450" depth="0" size="250,33" text="V5.0.5 B30" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- WOTW VERSION # -->
+		<label name="WOTWVersion" pos="450, -450" depth="0" size="250,33" text="V5.0.6 B31" font_size="32" effect="outline" color="[white]" justify="center" /> <!-- WOTW VERSION # -->
 		<grid name="buttons" pos="0, -475" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
 			<simplebutton name="btnSave" depth="3" width="250" height="46" caption_key="xuiMenuSave" font_size="40" />

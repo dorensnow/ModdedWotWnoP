@@ -88,6 +88,7 @@ tbnsew:
 	</property>
 	<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
 	<drop event="Destroy" name="yuccaFibers" count="2"/>
+	<drop event="Destroy" name="Worms" count="1" prob="0.15"/>
 	<drop event="Fall" name="grass" count="1" prob="0.25" stick_chance="1"/>
 	<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>
 	<property name="Group" value="Decor/Miscellaneous"/>
@@ -115,6 +116,7 @@ tbnsew:
 	</property>
 	<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
+	<drop event="Destroy" name="Worms" count="1,2" prob="0.15"/>
 	<drop event="Fall" name="dirt" count="1" prob="0.25" stick_chance="1"/>
 	<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>
 	<property name="CanMobsSpawnOn" value="true"/>
